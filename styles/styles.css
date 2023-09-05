@@ -92,6 +92,9 @@
     border-color:#3882F6;
     border-radius: 15px;
 }
+.article .section-2 p{
+    text-align: center;
+}
 
 .article .section-3{
     text-align: center;
