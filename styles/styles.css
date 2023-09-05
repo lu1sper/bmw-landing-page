@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.nav-bar img{
+    width: 200px;
+    height: 100px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.nav-links a{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.article .section-1 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+}
+
+.article .section-1 .column-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.article .section-1 .column-text h2{
+    flex-wrap: wrap;
+    max-width: 300px;
+    padding-bottom: 10px;
+}
+
+.article .section-1 .column-text p{
+    flex-wrap: wrap;
+    max-width: 400px;
+    padding-top: 30px;
+
+}
+
+.article .section-1 .column-text button{
+    flex-wrap: wrap;
+    max-width: 100px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    padding: 6px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.article .section-1 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    
+}
+
+.big-heading{
+    text-align: center;
+    margin: 20px;
+}
+.article .section-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article .section-2 img{
+    width: 250px;
+    height: 165px;
+    border: solid;
+    border-color:#3882F6;
+    border-radius: 15px;
+}
+
+.article .section-3{
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: italic;
+    background-color: #E5E7EB;
+}
+
+.article .section-4{
+    color: white;
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.article .section-4 .texts{
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.article .section-4 button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    margin: auto;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
