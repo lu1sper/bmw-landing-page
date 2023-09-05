@@ -105,6 +105,11 @@
     background-color: #E5E7EB;
 }
 
+.article .section-3 .founder{
+    text-align: right;
+    font-weight:bolder;
+}
+
 .article .section-4{
     color: white;
     background-color: #3882F6;
